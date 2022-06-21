@@ -1,0 +1,84 @@
+{
+	"liveServer.settings.port": 0,
+	"liveServer.settings.mount": [],
+	"codestream.email": "seropyan.bagrat@mail.ru",
+	"editor.linkedEditing": true,
+	"files.autoSave": "afterDelay",
+	"editor.tabCompletion": "on",
+	"php.validate.enable": true,
+	"php.validate.run": "onSave",
+	"php.validate.executablePath": "C:\\php\\php.exe",
+	"workbench.colorTheme": "Material Theme Darker High Contrast",
+	"git.autofetch": true,
+	"workbench.editor.enablePreview": false,
+	//Настройки Вида редактора,скрытие панелей
+	"editor.minimap.enabled": false, //скрытие миникарты справа
+	"editor.overviewRulerBorder": false, //
+	"editor.lineNumbers": "on", //Нумерация строк
+	"window.menuBarVisibility": "toggle", //Скрыта Панель меню(доступна через ald)
+	//Линия уровней вложенности кода
+	"indentRainbow.errorColor": "rgba(0,0,0,0)",
+	// Using the light mode
+	"indentRainbow.indicatorStyle": "light",
+	// we use a simple 1 pixel wide line
+	"indentRainbow.lightIndicatorStyleLineWidth": 1,
+	// the same colors as above but more visible
+	"indentRainbow.colors": [ //цветы линий
+		"rgba(255,255,64,0.2)",
+		"rgba(127,255,127,0.2)",
+		"rgba(255,127,255,0.2)",
+		"rgba(79,236,236,0.2)"
+	],
+	//Шрифт
+	"editor.fontFamily": "Fira Code",
+	"editor.fontLigatures": true,
+	"editor.fontSize": 14,
+	"editor.mouseWheelZoom": true,
+	//cursor
+	"editor.cursorStyle": "line",
+	"editor.cursorBlinking": "phase",
+	"editor.cursorSmoothCaretAnimation": true,
+	"editor.hideCursorInOverviewRuler": false,
+	//всплываюшее окно с информацией 
+	"editor.hover.above": false,
+	"editor.hover.sticky": false,
+	//Links
+	"editor.links": true,
+	//Анимация при прокрутке
+	"editor.smoothScrolling": true,
+	//скрытие подсказки слов при вводе
+	"editor.quickSuggestions": {
+		"other": "inline",
+		"comments": "off",
+		"strings": "off"
+	},
+	"editor.suggestOnTriggerCharacters": false,
+	"editor.parameterHints.enabled": true,
+	"editor.suggest.showTypeParameters": true,
+	//emmet
+	"emmet.showExpandedAbbreviation": "inMarkupAndStylesheetFilesOnly",
+	"editor.snippetSuggestions": "top",
+	//emmet BEM in html
+	"emmet.syntaxProfiles": {
+		"html": {
+			"filters": "bem"
+		},
+	},
+	"editor.tabSize": 3,
+	"editor.insertSpaces": false,
+	"editor.detectIndentation": false,
+	"editor.formatOnSave": true,
+
+
+	//live sass compiler
+	"liveSassCompile.settings.generateMap": false,
+	"liveSassCompile.settings.formats": [
+		{
+			"format": "expanded",
+		"autoprefix": "last 5 versions",
+		"extensionName": ".css",
+		"savePath": "css",
+		}
+	],
+	"workbench.activityBar.visible": false
+}
