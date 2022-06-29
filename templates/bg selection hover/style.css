@@ -1,0 +1,48 @@
+
+.nav{
+	
+	margin: 0 auto;
+	width: 700px;
+}
+.header{
+	display: flex;
+	text-decoration: none;
+	list-style: none;
+	width: 700px;
+	margin: 20px 20px 40px;
+
+}
+.header_item{
+	margin-right: 10px;
+}
+.header_link{
+	font-size: 20px;
+	
+}
+
+/* copy this class link*/
+.link{
+	border-bottom: 2px solid orange;
+}
+.highlight{
+	transition: all .2s;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: -1;
+	display: block;
+	/* border-bottom: 2px solid orange; */
+
+	background: #ffdb8e;
+}
+/* copy this */
+
+
+.wrapper{
+	max-width: 700px;
+	margin: 0 auto;
+}
+p{
+	line-height: 25px;
+	font-size: 17px;
+}
