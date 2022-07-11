@@ -1,0 +1,54 @@
+
+canvas{
+	/* width: 608px;
+	height: 608px; */
+	display: block;
+	margin: 0 auto;
+}
+.popup{
+	box-sizing: border-box;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+	padding: 30px;
+	position: absolute;
+	transition: all 0.5s;
+	width: 500px;
+	height: 300px;
+	z-index: 999;
+	border-radius: 10px;
+	top: -400px;
+	left: calc((100vw / 2) - 250px);
+	/* transform: translate(500px,100px); */
+	/* color: gray; */
+	background-color: #fff;
+	box-shadow: -1px 0px 16px 5px #808080;
+}
+.popup__message{
+	font-size: 18px;
+	color: gray;
+	display: inline-block;
+	margin: 0px 0px;
+	
+}
+.again{
+
+	all: unset;
+	cursor: pointer;
+	transition: 0.3s ease-in-out;
+	border-radius: 25px;
+	padding: 10px 20px;
+	background-color: rgb(81, 250, 62);
+	box-shadow: 0px 0px 10px 3px rgb(24, 255, 16);
+
+}
+.again:hover{
+	background-color: rgb(47, 233, 27);
+	box-shadow: 0px 0px 10px 2px rgb(24, 255, 16);
+}
+
+.active{
+	background-color: orange;
+}
