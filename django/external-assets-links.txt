@@ -1,0 +1,12 @@
+
+029 -Meta-Django
+https://coderoad.ru/10344197/Как-работает-мета-класс-Django
+
+029 -Python
+https://habr.com/ru/post/145835/
+
+031 CSRF-Django-
+https://docs.djangoproject.com/en/3.1/ref/csrf/
+
+032 -input-
+http://htmlbook.ru/html/input
