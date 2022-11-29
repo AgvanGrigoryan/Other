@@ -10,3 +10,6 @@ https://docs.djangoproject.com/en/3.1/ref/csrf/
 
 032 -input-
 http://htmlbook.ru/html/input
+
+038 QuerySet-API-Django-
+https://docs.djangoproject.com/en/3.1/ref/models/querysets/
