@@ -1,0 +1,78 @@
+////15
+//int n = int.Parse(Console.ReadLine());
+//int x = 2;
+//double sum = 0;
+//for (int i = 2; i <= n; i++)
+//{
+//    sum += Math.Pow(x, 2);
+//    x = 3 * Math.Abs(x - 3);
+//}
+//Console.WriteLine(sum);
+
+//16
+//int n = int.Parse(Console.ReadLine());
+//int x = 2;
+//double res = 1;
+//for (int i = 2; i <= n; i++)
+//{
+//    res *= Math.Pow(x, 2) + x;
+//    x = x + 3;
+//}
+//Console.WriteLine(res);
+
+
+//17
+//int n = int.Parse(Console.ReadLine());
+//int x = 1;
+//int y = 2;
+//double sum = 0;
+//for (int i = 2; i <= n; i++)
+//{
+//    sum += Math.Pow(x+y, 2);
+//    x = 2 * x + 3;
+//    y -= 3;//y = y-3
+//}
+
+//Console.WriteLine(sum);
+
+//18
+//int n = int.Parse(Console.ReadLine());
+//int reverse_number = 0;
+//int k = n;
+//while (k != 0)
+//{
+//    reverse_number *= 10;
+//    reverse_number += k % 10;
+//    k /= 10;
+//}
+
+//Console.WriteLine("number- "+ n);
+//Console.WriteLine("reverse number- " + reverse_number);
+
+
+//19
+//int n = int.Parse(Console.ReadLine());
+//double res = 1;
+//while (n != 0)
+//{
+//    res *= n % 10;
+//    n /= 10;
+//}
+//Console.WriteLine(res);
+
+
+
+//20
+int sum = 0;
+int count = 0;
+for (int i = 10; i <= 99; i++)
+{
+	if(i%10 == i / 10)
+	{
+		Console.WriteLine(i);
+		sum+=i;
+		count++;
+
+	}
+}
+Console.WriteLine("Mijin Tvabanakan = " + (double)sum/count);

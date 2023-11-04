@@ -1,0 +1,70 @@
+//24
+
+//int n, k;
+
+//k = int.Parse(Console.ReadLine());
+//n = int.Parse(Console.ReadLine());
+
+//int summ = 0;
+//for (int i = 1; i <= n; i++)
+//{
+//	if (i % 10 == k)
+//	{
+//		summ += i;
+//	}
+//}
+//Console.WriteLine(summ);
+
+//25
+
+//int n = int.Parse(Console.ReadLine());
+//int m = int.Parse(Console.ReadLine());
+//int s = 0;
+
+//for (int i = 1; i <= n; i++)
+//{
+//    int sum = 1;
+//	for (int j = 1; j <= m; j++)
+//	{
+//		sum *= j;
+//	}
+//	s += sum * (i + 3);
+//}
+//Console.WriteLine(s);
+
+//26
+
+//int n = int.Parse(Console.ReadLine());
+//int numm = (int)Math.Floor(Math.Log10(n) + 1);
+
+//Console.WriteLine(numm);
+
+//Console.WriteLine(((numm * 1000) / 3 + n) * 10 + 1);
+
+
+//int n = int.Parse(Console.ReadLine());
+//int numm = 0;
+//int b = n;
+//while (n != 0)
+//{
+//    n /= 10;
+//    numm++;
+//}
+
+//Console.WriteLine((1 * Math.Pow(10, numm) + b) * 10 + 1);
+
+//27
+
+//int n = 1022;
+//int res;
+//for (int i = 1; i <= 9; i++)
+//{
+//	for (int j = 0; j <=9; j++)
+//	{
+//		res = (int)(i * Math.Pow(10, 4) + n) * 10 + j;
+//		if(res%7==0 && res%8==0 && res % 9 == 0)
+//		{
+//			Console.WriteLine(res);
+//		}
+//	}
+//}

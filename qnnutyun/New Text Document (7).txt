@@ -1,0 +1,178 @@
+//37
+//int n = int.Parse(Console.ReadLine());
+//int sum = 0;
+//for (int i = 0; i <= n; i++)
+//{
+//    if (i % 10 == 3)
+//    {
+//        Console.WriteLine(i);
+//        sum += i;
+//    }
+//}
+//Console.WriteLine(sum);
+
+//38
+//for (int i = 1000; i <= 9999; i++)
+//{
+//    int a = i / 1000;
+//    int b = i / 100 % 10;
+//    int c = i / 10 % 10;
+//    int d = i % 10;
+//    if(a!=b && a!=c && a!=d && b!=c && b!=d && c != d)
+//    {
+//        Console.WriteLine(i);
+//    }
+
+//}
+
+//39
+//int sum = 0;
+//for (int i = 100; i <= 999; i++)
+//{
+//    if(i / 100 == i % 10)
+//    {
+//        sum += i;
+//        Console.WriteLine(i);
+//    }
+//}
+
+//Console.WriteLine(sum);
+
+
+//40
+
+//int a = 21, b = 14;
+
+//for (int i = b; i >= 1; i--)
+//{
+//    if(a%i==0 && b % i == 0)
+//    {
+//        Console.WriteLine(i);
+//        break;
+//    }
+//}
+
+//lucum 2
+//while (a!= 0 && b != 0)
+//{
+//    if (a > b)
+//    {
+//        a = a % b;
+
+//    }
+//    else
+//    {
+//        b = b % a;
+//    }
+//}
+//Console.WriteLine(a+b);
+
+//41
+//int a =  24;
+//int b = 14;
+//int i;
+//if (a > b)
+//{
+//    i = a;
+
+//}
+//else
+//{
+//    i = b;
+//}
+//while (true)
+//{
+//    if(i%a == 0 && i % b == 0)
+//    {
+//        Console.WriteLine(i);
+//        break;
+//    }
+//    i++;
+//}
+
+
+///////////////////////////////////////
+//xumb 4
+
+//n1
+//int n = 7;
+//int[] arr = { 5, 48, 52, 3, 7, 1, 56 };
+//double res = 1;
+//for (int i = 0; i < n; i++)
+//{
+//    int k = i + arr[i];
+//    int count = 0;
+//    for (int j = 2; j <= k/2; j++)
+//    {
+//        if (k % j == 0)
+//        {
+//            count++;
+//        }
+//    }
+//    if (count==0)
+//    {
+//        Console.WriteLine(arr[i]);
+
+//        res *= arr[i];
+//    }
+
+//}
+
+//Console.WriteLine(res);
+
+
+//2
+//int n = int.Parse(Console.ReadLine());
+//int k = int.Parse(Console.ReadLine());
+//int[] arr = new int[n];
+//Random r = new Random();
+//int sum = 0;
+
+//for (int i = 0; i < n; i++)
+//{
+//    arr[i] = r.Next(15, 30);
+//    Console.Write(arr[i] + ", ");
+//}
+//Console.WriteLine();
+
+//for (int i = 0; i < n; i++)
+//{
+//    if(i%k == 0)
+//    {
+//        Console.WriteLine(arr[i]);
+//        sum += arr[i];
+//    }
+//}
+//Console.WriteLine(sum);
+
+
+
+//3
+//int n = int.Parse(Console.ReadLine());
+//int[] arr = new int[n];
+//Random r = new Random();
+
+//for (int i = 0; i < n; i++)
+//{
+//    arr[i] = r.Next(15, 30);
+//    Console.Write(arr[i] + ", ");
+//}
+//Console.WriteLine();
+
+//for (int i = 0; i < n; i++)
+//{
+//    if (i % 2 == 0)
+//    {
+//        arr[i] *= arr[i];
+//    }
+//    else
+//    {
+//        arr[i] *= 2;
+//    }
+//}
+//Console.WriteLine();
+//for (int i = 0; i < n; i++)
+//{
+//    Console.Write(arr[i] + " ");
+//}
+

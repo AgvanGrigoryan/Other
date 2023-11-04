@@ -1,0 +1,207 @@
+//1
+//int n = int.Parse(Console.ReadLine());
+//int count = 0;
+//if (n == 0)
+//{
+//    count = 1;
+//}
+//while (n > 0)
+//{
+//    n = n / 10;
+//    count++;
+//}
+//Console.WriteLine(count);
+
+//2
+//int n = int.Parse(Console.ReadLine());
+//int m = int.Parse(Console.ReadLine());
+//int s = 1;
+
+//for (int j = 1; j<= m; j++)
+//{
+//    int sum = 0;
+//	for (int i = 1; i <= n; i++)
+//	{
+//		sum += (i + 5) * j;
+
+//	}
+//	s *= sum;
+
+//}
+//Console.WriteLine(s);
+
+//3
+
+//int n = int.Parse(Console.ReadLine());
+//int m = int.Parse(Console.ReadLine());
+//int s = 0;
+//for (int i = 1; i <=n; i++)
+//{
+//    int sum = 0;
+//	for (int j = 1; j <=m ; j++)
+//	{
+//		sum += i * j;
+
+//	}
+//	s += sum;
+
+//}
+//Console.WriteLine(s);
+
+
+//4
+//int n = int.Parse(Console.ReadLine());
+//double s = 0;
+
+//for (int i = 1; i <= n; i++)
+//{
+//    s += (double)1 / i;
+//}
+
+//Console.WriteLine(s);   
+
+//5
+//int n = int.Parse(Console.ReadLine());
+//double sum = 0;
+//int faktorial = 1;
+
+//for (int i = 1; i <= n; i++)
+//{
+//    faktorial *= i;
+//    sum += faktorial;
+//}
+//Console.WriteLine(sum); 
+
+
+//6
+//int n = int.Parse(Console.ReadLine());
+//int min = 9;
+//while (n > 0)
+//{
+//    int k = n % 10;
+//    if (k < min)
+//    {
+//        min = k;
+//    }
+//    n /= 10;
+//}
+//Console.WriteLine(min);
+
+
+//7
+//int n = int.Parse(Console.ReadLine());
+//int max = 0;
+//while (n > 0)
+//{
+//    int k = n % 10;
+//    if (k > max)
+//    {
+//        max = k;
+//    }
+//    n /= 10;
+//}
+//Console.WriteLine(max);
+
+//8
+
+//int h = int.Parse(Console.ReadLine());
+//int a = int.Parse(Console.ReadLine());
+
+//double y;
+//for (int x = 1; x <= 8; x+=h)
+//{
+//    if (x < 2.5)
+//    {
+//        y = Math.Sqrt(x * x + a * a);
+//    }
+//    else if (x >= 2.5 && x < 6)
+//    {
+//        y = Math.Tan(x);
+//    }
+//    else
+//    {
+//        y = Math.Sin(Math.Cos(x));
+//    }
+//    Console.WriteLine(y);
+//}
+
+//9...
+
+//10
+//int n = int.Parse(Console.ReadLine());
+//int k = int.Parse(Console.ReadLine());
+//double sum = 0;
+//for (int i = 1; i <= n; i++)
+//{
+//    sum+=Math.Pow(i, k);
+//}
+
+//Console.WriteLine(sum);
+
+
+//11
+//int n = int.Parse(Console.ReadLine());
+//double result = 0;
+//for (int i = 1; i <= n; i++)
+//{
+//    result += Math.Pow(i, i);
+//}
+//Console.WriteLine(result);
+
+//12
+//int n = int.Parse(Console.ReadLine());
+//int m = int.Parse(Console.ReadLine());
+
+//double s = 1;
+
+//for (int i = 1; i <= m; i++)
+//{
+//    int sum = 0;
+//	for (int j = 1; j <= n; j++)
+//	{
+//		sum += (j + 2) * i;
+//	}
+//	s *= i * i * sum;
+//}
+
+//Console.WriteLine(s);
+
+
+//13
+//int n = int.Parse(Console.ReadLine());
+//int m = int.Parse(Console.ReadLine());
+
+//double s = 0;
+
+//for (int j = 1; j <= m; j++)
+//{
+//	int sum = 0;
+//	for (int i = 1; i <= n; i++)
+//	{
+//		sum += (j + 3) * j;
+//	}
+//	s += j * sum;
+//}
+
+//Console.WriteLine(s);
+
+
+
+//14
+//int n = int.Parse(Console.ReadLine());
+//int m = int.Parse(Console.ReadLine());
+
+//double p = 1;
+
+//for (int i = 1; i <= n; i++)
+//{
+//	int sum = 0;
+//	for (int j = 1; j <= m; j++)
+//	{
+//		sum += (i+j*j);
+//	}
+//	p *= i * sum;
+//}
+
+//Console.WriteLine(p);
+

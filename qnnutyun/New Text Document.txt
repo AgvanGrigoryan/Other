@@ -1,0 +1,224 @@
+//1
+//int x = int.Parse(Console.ReadLine());
+//double y;
+//if (x > 3)
+//{
+//    y = Math.Log(x, 4);
+//}
+//else
+//{
+//    y = -9;
+//}
+
+//2
+//Console.WriteLine(y);
+
+//int x = int.Parse(Console.ReadLine());
+//int n = x / 100;
+//int y = x % 10;
+//int z = x / 10 % 10;
+//if (n == y)
+//{
+//    Console.WriteLine(n + y + z);
+//}
+//else
+//{
+//    Console.WriteLine(n * y * z);
+//}
+
+////3
+//int x = int.Parse(Console.ReadLine());
+//int n = x / 1000;
+//int y = x / 100 % 10;
+//int z = x / 10 % 10;
+//int b = x % 10;
+
+//if (n == b && y == z)
+//{
+//    Console.WriteLine((n * n) * (y * y) * (z * z) * (b * b));
+//}
+//else
+//{
+//    Console.WriteLine(Math.Pow(n ,3)+ Math.Pow(y, 3) + Math.Pow(z, 3) + Math.Pow(b, 3));
+//}
+
+
+//4
+//int n = int.Parse(Console.ReadLine());
+
+//int x = n / 100;
+//int y = n / 10 % 10;
+//int z = n % 10;
+
+//double result = 0;
+
+
+//if(x==5 || y==5 || z == 5)
+//{
+//    result=(double)(x + y + z) / 3;
+//}
+//else
+//{
+//    result=Math.Sqrt((double)(x * x + y * y + z * z) / 3);
+//}
+//Console.WriteLine(result);
+
+
+
+//n5
+//int n = int.Parse(Console.ReadLine());
+
+//int a = n / 100;
+//int b = n / 100 % 10;
+//int c = n / 10 % 10;
+//int d = n % 10;
+
+//double result = 0;
+
+//if (a == 3 || b == 3 || c == 3 || d== 3)
+//{
+//    result = (double)(a+b+c+d) / 4;
+//}
+//else
+//{
+//    result = Math.Sqrt((double)(a*a + b*b + c*c + d*d) / 4);
+//}
+//Console.WriteLine(result);
+
+
+
+//n6
+//int n = int.Parse(Console.ReadLine());
+//int x = n / 100;
+//int y = n / 10 % 10;
+//int z = n % 10;
+
+//if (x < y && x<z)
+//{
+//    Console.WriteLine(x);
+//}
+//else if(y<x && y < z)
+//{
+//    Console.WriteLine(y);
+
+//}
+//else
+//{
+//    Console.WriteLine(z);
+
+////}
+///7
+
+//int x = int.Parse(Console.ReadLine());
+//int n = x / 1000;
+//int y = x / 100 % 10;
+//int z = x / 10 % 10;
+//int b = x % 10;
+
+//if (n + y == z + b)
+//{
+//    Console.WriteLine(true);
+//}
+//else
+//{
+
+//    Console.WriteLine(false);
+//}
+
+//8
+
+//int a = 2;
+//int b = 4;
+//int c = 2;
+//int d = b * b - 4 * a * c;
+
+//if (d < 0)
+//{
+//    Console.WriteLine("armat chuni");
+//}
+//else if (d == 0)
+//{ Console.WriteLine((double)-b/2*a); }
+//else
+//{
+//    Console.WriteLine((double)(-b+Math.Sqrt(d))/2*a);
+//    Console.WriteLine((double)(b + Math.Sqrt(d)) / 2 * a);
+//}
+
+
+//9
+//int x = int.Parse(Console.ReadLine());
+//int n = x / 1000;
+//int y = x / 100 % 10;
+//int z = x / 10 % 10;
+//int b = x % 10;
+
+//if (n == b && y == z)
+//{
+//    Console.WriteLine(true);
+//}
+//else
+//{
+
+//    Console.WriteLine(false);
+//}
+
+
+//10
+//int n = int.Parse(Console.ReadLine());
+
+//int a = n / 100;
+//int b = n / 100 % 10;
+//int c = n / 10 % 10;
+//int d = n % 10;
+
+//double result = 0;
+
+//if (a == 0 || b == 0 || c == 0 || d == 0)
+//{
+//    result = (double)(a + b + c + d) / 4;
+//}
+//else
+//{
+//    result = Math.Sqrt((double)(a * a + b * b + c * c + d * d) / 4);
+//}
+//Console.WriteLine(result);
+
+//11
+
+//int n = int.Parse(Console.ReadLine());
+
+//int a = n / 100;
+//int b = n / 10 % 10;
+//int c = n % 10;
+
+
+
+//if (a == b && b == c)
+//{
+//    Console.WriteLine("1");
+//}
+//else
+//{
+//    Console.WriteLine("0");
+//}
+
+//12
+
+//int n = int.Parse(Console.ReadLine());
+
+//int x = n / 100;
+//int y = n / 10 % 10;
+//int z = n % 10;
+
+//double result = 0;
+
+
+//if (x == 5 || y == 5 || z == 5)
+//{
+//    result = n * n;
+//}
+//else
+//{
+//    result = Math.Sqrt(n);
+//}
+//Console.WriteLine(result);

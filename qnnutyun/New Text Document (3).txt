@@ -1,0 +1,293 @@
+//23
+
+
+////int x = int.Parse(Console.ReadLine());
+////int y = int.Parse(Console.ReadLine());
+////double z;
+
+////if(x*x + y*y <= 1 && y > x && y > -x)
+////{
+////    z = 5 * x * x + y;
+////}
+////else
+////{
+////    z = -3;
+////}
+////Console.WriteLine(z);
+///
+///29
+///
+
+//int n = int.Parse(Console.ReadLine());
+//int a = n / 1000;
+//int b = n / 100 % 10;
+//int c = n / 10 % 10;
+//int d = n % 10;
+
+//if (n == a * a + b * b + c * c + d * d)
+//{
+//    Console.WriteLine("YES");
+//}
+//else
+//{
+//    Console.WriteLine("NO");
+//}
+
+
+//n30
+
+
+//int n = int.Parse(Console.ReadLine());
+//int a = n / 1000;
+//int b = n / 100 % 10;
+//int c = n / 10 % 10;
+//int d = n % 10;
+
+//if(d > c)
+//{
+//    Console.WriteLine(b * d);
+//}
+//else
+//{
+//    Console.WriteLine(1);
+//}
+
+//31
+
+//int n = int.Parse(Console.ReadLine());
+//int a = n / 1000;
+//int b = n / 100 % 10;
+//int c = n / 10 % 10;
+//int d = n % 10;
+
+//if (a + b + c + d > 20)
+//{
+//    Console.WriteLine(1);
+//}
+//else
+//{
+//    Console.WriteLine(0);
+//}
+
+//32
+
+//int n = int.Parse(Console.ReadLine());
+////int a = n / 1000;
+////int b = n / 100 % 10;
+////int c = n / 10 % 10;
+////int d = n % 10;
+
+////if(a * b * c * d > 200)
+////{
+////    Console.WriteLine(0);
+////}
+////else
+////{
+////    Console.WriteLine(1);
+////}
+
+
+
+//33
+
+//int n = int.Parse(Console.ReadLine());
+
+//if(n >= 1000 && n <= 9999)
+//{
+//    Console.WriteLine("TRUE");
+//}
+//else
+//{
+//    Console.WriteLine("FALSE");
+//}
+
+//n34
+
+//int n = int.Parse(Console.ReadLine());
+
+//if (n % 2 == 0)
+//{
+//    Console.WriteLine("zuyg");
+//}
+//else
+//{
+//    Console.WriteLine("kent");
+//}
+
+////n35
+
+//int n = int.Parse(Console.ReadLine());
+
+//if(n<=999 && n>=100 && n % 3==0) {
+//    Console.WriteLine("ayo");
+//}
+//else
+//{
+//    Console.WriteLine("voch");
+//}
+
+
+//n36
+
+//int n = 356;
+//int a = n / 100;
+//int b = n/ 10 %10;
+//int c = n % 10;
+
+//if (a * b * c > 20)
+//{
+//    Console.WriteLine("YES");
+//}
+//else
+//{
+//    Console.WriteLine("no");
+//}
+
+//N37
+
+//int n = 789;
+//int a = n / 100;
+//int b = n / 10 % 10;
+//int c = n % 10;
+//int max = a;
+
+//if (b > max)
+//{
+//    max = b;
+//}
+//if (c > max)
+//{
+//    max = c;
+//}
+//Console.WriteLine(max);
+
+
+// հաշվում առանց max-ի։
+
+//if (a > b && a > c)
+//{
+//    Console.WriteLine(a);
+//}else if(b>c&& b > a)
+//{
+//    Console.WriteLine(b);
+//}
+//else
+//{
+//    Console.WriteLine(c);
+//}
+
+//N38
+
+//int x = int.Parse(Console.ReadLine());
+//double y;
+
+//if (x > 2)
+//{
+//    y=Math.Pow(3,x+4);
+//}
+//else
+//{
+//    y = -8;
+//}
+//Console.WriteLine(y);
+
+//N39
+
+//int x = int.Parse(Console.ReadLine());
+//double y;
+
+//if (x > 7)
+//{
+//    y=Math.Exp(Math.Sin(x));
+//}
+//else
+//{
+//    y = 0;
+//}
+//Console.WriteLine(y);
+
+//N40
+
+//int x = int.Parse(Console.ReadLine());
+//double y;
+//if (x > 1)
+//{
+//    y=6*Math.Exp(x+8);
+//}
+//else
+//{
+//    y = x + 4;
+//}
+//Console.WriteLine(y);
+
+
+
+//Cycle
+
+//Karevor maser:
+//naxnakan arjeq
+//payman
+//qayl
+
+//Cikleri operatorner
+//for, while, dowhile
+
+//for
+//int n = 456;
+//for (int i = 0; i < 10; i++)
+//{
+
+//}
+
+
+////while
+//int payman = 1;
+
+//while (payman<=10)
+//{
+//    Console.WriteLine(payman);
+//}
+
+//dowhile
+//do
+//{
+
+//} while (true);
+
+
+
+//N24
+
+//int h = int.Parse(Console.ReadLine());
+//int a = int.Parse(Console.ReadLine());
+
+//double y;
+//for (int x = 1; x <= 8; x+=h)
+//{
+//    if(x>=1 && x < 2.5) {
+//        y = Math.Sqrt(x * x + a * a);
+//    }
+//    else if(x>=2.5 && x<6)
+//    {
+//        y = Math.Tan(x);
+//    }
+//    else
+//    {
+//        y = Math.Sin(Math.Cos(x));
+//    }
+//    Console.WriteLine("x-" + x + " y= "+ (int)y);
+//}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
